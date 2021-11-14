@@ -17,8 +17,13 @@ ul {
 html,
 body {
   height: 100%;
+  color: white;
+  background-color: black;
 }
 
+a {
+  color: white;
+}
 /* Placement */
 
 body {
@@ -63,10 +68,6 @@ body {
   }
 }
 
-.title * {
-  color: #111;
-}
-
 .title p {
   font-style: italic;
 }
@@ -79,10 +80,6 @@ body {
   border-top: 1px solid #222;
 }
 
-.footer a {
-  color: #222;
-}
-
 .footer .social {
   font-size: 2rem;
 }
@@ -92,7 +89,6 @@ body {
 body {
   font-family: sans-serif;
   line-height: 1.5rem;
-  color: #444;
 }
 
 p,
