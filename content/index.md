@@ -3,9 +3,10 @@ Title: Home
 Description: This is our index page.
 ---
 
-Home page
-==========================
+# Home page
 
-The source for this page is in `content/index.md`.
+Halloj,
 
-This is a sample home page written in markdown with some frontmatter defined.
+Carl heter jag. Gillar allt som har med teknik och datorer att göra :)
+
+![me](%assets_url%/img/Snoopy-Flying-Ace-waiting-600x406.jpg)

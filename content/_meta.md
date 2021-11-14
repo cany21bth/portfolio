@@ -1,8 +1,8 @@
 ---
-Logo: image/leaf_256x256.png
+Logo: image/small-snoopy.jpg
 Tagline: My portfolio.
 Social:
-    - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
-      icon: github
+  - title: Link till sidans github repo.
+    url: https://github.com/cany21bth/portfolio
+    icon: github
 ---
