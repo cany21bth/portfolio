@@ -3,7 +3,7 @@
         {% if pages["_meta"].meta.logo %}
         <div class="logo">
             <a href="{{ base_url }}">
-                <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
+                <i class="fas fa-hand-spock"></i>
             </a>
         </div>
         {% endif %}
@@ -19,7 +19,8 @@
             <span class="sr-only">Toggle Menu</span>
         </a>
     </div>
-    <div class="nav">
+    <div class="nav-wrapper">
+        <div class="nav">
         <div id="nav" role="navigation" tabindex="-1">
             <ul>
                 {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
@@ -28,6 +29,7 @@
                     </li>
                 {% endfor %}
             </ul>
+        </div>
         </div>
     </div>
 </div>

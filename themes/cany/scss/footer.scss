@@ -1,0 +1,13 @@
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #222;
+    box-shadow: 0 3px 11px 8px rgb(0 0 0 / 20%);
+    background-color: #425563;
+}
+
+.footer .social {
+    font-size: 2rem;
+}

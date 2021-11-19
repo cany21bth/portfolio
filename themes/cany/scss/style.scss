@@ -1,0 +1,31 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+$base-color: #c6538c; // light pink
+
+@import '../../shared/scss/base';
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@501&display=swap');
+
+@import 'footer';
+@import 'header';
+@import 'general';
+@import 'code';
+
+* {
+    font-family: 'PT Mono', monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Space Mono', monospace;
+}

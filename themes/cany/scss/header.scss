@@ -1,0 +1,51 @@
+@import 'colors';
+
+/* Header */
+
+.header,
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    box-shadow: 0 7px 8px rgb(0 0 0 / 20%);
+    background-color: #425563;
+}
+
+/* Title */
+.fa-hand-spock {
+    color: $heading-color;
+    font-size: 2.5em;
+}
+
+.title a {
+    text-decoration: none;
+}
+
+.title,
+.logo {
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+    margin: auto;
+}
+
+.nav-wrapper {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+@media (max-width: 767px) {
+    .title,
+    .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        max-width: 30%;
+    }
+}
